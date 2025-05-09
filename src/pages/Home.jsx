@@ -70,14 +70,38 @@ export const Home = () => {
       </div>
 
       {/* Botones de Redes Sociales */}
-      <div className="mb-10 text-center">
-        <h2 className="text-3xl font-semibold text-blue-600 mb-4 animate__animated animate__fadeInDown">Contáctanos</h2>
-        <div className="flex justify-center space-x-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Facebook</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition duration-300">Instagram</a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-blue-400 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">Twitter</a>
-        </div>
-      </div>
+      <div className="mb-10 text-center px-4">
+  <h2 className="text-3xl font-semibold text-blue-600 mb-4 animate__animated animate__fadeInDown">
+    Contáctanos
+  </h2>
+  
+  <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+    <a 
+      href="https://facebook.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300 w-48 text-center"
+    >
+      Facebook
+    </a>
+    <a 
+      href="https://instagram.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition duration-300 w-48 text-center"
+    >
+      Instagram
+    </a>
+    <a 
+      href="https://twitter.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="bg-blue-400 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300 w-48 text-center"
+    >
+      Twitter
+    </a>
+  </div>
+</div>
     </div>
   );
 };
